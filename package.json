@@ -1,0 +1,28 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomatoPotatoSource/website.git"
+  },
+  "author": "Rob van der Burgt",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/TomatoPotatoSource/website/issues"
+  },
+  "homepage": "https://github.com/TomatoPotatoSource/website#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.5.0",
+    "@parcel/transformer-sass": "^2.5.0",
+    "@parcel/transformer-webmanifest": "^2.5.0",
+    "parcel": "^2.5.0"
+  },
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
